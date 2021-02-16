@@ -1,1 +1,46 @@
+Rec-Boot Bot
 
+
+
+
+
+
+
+
+
+#HOW TO USE Rec-Boot Boot v1.2<br>
+<br>
+<br>
+•Install busy box for your devices <br>
+• Rec-boot Bot supports 64/32bit. and must be android 5.0 or higher  But can port for all the latest android recovery.<br>
+<br>
+     ...AUTO PORT menu...<br>
+AUTO NORMAL BOOT menu<br>
+•Supports normal boot, <br>
+•cm based boot rom<br>
+ #Stock boot.img should be placed in a folder called stock sleep 4 echo &amp; Port boot.img should be placed in a folder called port.<br>
+<br>
+•AUTO CM BOOT menu<br>
+• Support boot as a base cm rom<br>
+# Stock boot.img should be placed in a folder called stock &amp; Port boot.img should be placed in a folder called port.<br>
+• AUTO TWRP 3.0.2-7 <br>
+#Stock recovery.img should be placed in a folder called stock<br>
+• TWRP support all bits <br>
+Sample CPU&apos;S:<br>
+ - mt6582<br>
+ - mt6572<br>
+- mt6592 - mt6580<br>
+- mt6735 (only 32bit)<br>
+<br>
+•MANUALLY PROT menu<br>
+| Support all SOC,Use your Brain<br>
+<br>
+•UNPACK BOOT <br>
+•REPACK BOOT<br>
+•UNPACK RECOVERY <br>
+•REPACK RECOVERY <br>
+•FLASH TOOL <br>
+• Supports flash boot &amp; recovery Support 32bit<br>
+•Support 64bit ************************************GOOD Luck:)))<br>
+<br>
+This XenonTheInertG. Using this tool will make my day;)
