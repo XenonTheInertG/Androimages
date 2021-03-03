@@ -9,7 +9,7 @@
 •Install busy box for your devices <br>
 • Rec-boot Bot supports 64/32bit. and must be android 5.0 or higher  But can port for all the latest android recovery.<br>
 <br>
-_________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________
 # ...AUTO PORT menu...<br>
 AUTO NORMAL BOOT menu<br>
 •Supports normal boot, <br>
@@ -37,6 +37,8 @@ Sample CPU&apos;S:<br>
 •REPACK RECOVERY <br>
 •FLASH TOOL <br>
 • Supports flash boot &amp; recovery Support 32bit<br>
-•Support 64bit ************************************GOOD Luck:)))<br>
+•Support 64bit
+# GOOD Luck:)))<br>
 <br>
+________________________________________________________________________________________________________________________________________________
 This XenonTheInertG. Using this tool will make my day;)
