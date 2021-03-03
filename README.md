@@ -1,12 +1,5 @@
-Rec-Boot Bot
-
-
-
-
-
-
-
-
+#Rec-Boot Bot
+#A custom recovery is a third-party recovery environment. Flashing this recovery environment onto your device replaces the default, stock recovery environment with a third-party, customized recovery environment.
 
 #HOW TO USE Rec-Boot Boot v1.2<br>
 <br>
