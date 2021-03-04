@@ -40,5 +40,6 @@ Sample CPU&apos;S:<br>
 •Support 64bit
 # GOOD Luck:)))<br>
 <br>
+# Check out my XDA thread: https://forum.xda-developers.com/t/rec-boot-bot.4237761/]
 ________________________________________________________________________________________________________________________________________________
 This XenonTheInertG. Using this tool will make my day;)
