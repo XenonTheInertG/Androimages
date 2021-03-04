@@ -10,6 +10,10 @@
 • Rec-boot Bot supports 64/32bit. and must be android 5.0 or higher  But can port for all the latest android recovery.<br>
 <br>
 ___________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
 # AUTO PORT menu<br>
 AUTO NORMAL BOOT menu<br>
 •Supports normal boot, <br>
