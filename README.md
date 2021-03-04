@@ -9,12 +9,12 @@
 •Install busy box for your devices <br>
 • Rec-boot Bot supports 64/32bit. and must be android 5.0 or higher  But can port for all the latest android recovery.<br>
 <br>
-____________________________________________________________________________________________________________________________________________________________
-# ...AUTO PORT menu...<br>
+___________________________________________________________________________________________________________________________________________________________________________
+# AUTO PORT menu<br>
 AUTO NORMAL BOOT menu<br>
 •Supports normal boot, <br>
 •cm based boot rom<br>
- #Stock boot.img should be placed in a folder called stock sleep 4 echo &amp; Port boot.img should be placed in a folder called port.<br>
+•Stock boot.img should be placed in a folder called stock sleep 4 echo &amp; Port boot.img should be placed in a folder called port.<br>
 <br>
 # AUTO CM BOOT menu<br>
 • Support boot as a base cm rom<br>
@@ -28,7 +28,7 @@ Sample CPU&apos;S:<br>
 - mt6592 - mt6580<br>
 - mt6735 (only 32bit)<br>
 <br>
-•MANUALLY PROT menu<br>
+# MANUALLY PROT menu<br>
 | Support all SOC,Use your Brain<br>
 <br>
 •UNPACK BOOT <br>
