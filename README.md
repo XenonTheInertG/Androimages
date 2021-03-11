@@ -41,6 +41,14 @@ Sample CPU&apos;S:<br>
 •FLASH TOOL <br>
 • Supports flash boot &amp; recovery Support 32bit<br>
 •Support 64bit
+
+# How to use it?
+•Open any termial app( i suggest terminal emulator)
+•type "su" & click enter
+•Then type "Xenon54" & click enter.
+A preview will be popped up.
+•Go to data/local,there you'll see two folders stock & port. Put your stock recovery/boot in it, in port folder, put your port recovery/boot.
+Bugs: Nothing, if you find any,Lemme know
 # GOOD Luck:)))<br>
 <br>
 
