@@ -1,4 +1,4 @@
-![FB_IMG_1615742210036](https://user-images.githubusercontent.com/78007167/111077637-ece56580-851b-11eb-8b2b-a5814fca1ef7.jpg)
+
 # Rec-Boot Bot
 
 # A custom recovery is a third-party recovery environment. Flashing this recovery environment onto your device replaces the default, stock recovery environment with a third-party, customized recovery environment.
