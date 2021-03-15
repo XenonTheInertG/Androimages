@@ -1,6 +1,4 @@
-![Screenshot_2021-02-16-22-44-52-1](https://user-images.githubusercontent.com/78007167/111101902-0d8dd980-8575-11eb-9c2f-0d21a285020b.png)
-![Screenshot_2021-02-16-22-44-56-1](https://user-images.githubusercontent.com/78007167/111101924-1a123200-8575-11eb-8fbb-4f3e6096ba5e.png)
-![Screenshot_2021-02-16-22-45-13-1](https://user-images.githubusercontent.com/78007167/111101945-24343080-8575-11eb-91f6-b2d7c238a056.png)
+
 ![20210315_095339-1](https://user-images.githubusercontent.com/78007167/111101714-ae2fc980-8574-11eb-8d61-d545b622ec3e.png)
 
 # Rec-Boot Bot
@@ -54,6 +52,10 @@ Sample CPU&apos;S:<br>
 A preview will be popped up.
 •Go to data/local,there you'll see two folders stock & port. Put your stock recovery/boot in it, in port folder, put your port recovery/boot.
 Bugs: Nothing, if you find any,Lemme know
+Screenshots: 
+![Screenshot_2021-02-16-22-44-52-1](https://user-images.githubusercontent.com/78007167/111101902-0d8dd980-8575-11eb-9c2f-0d21a285020b.png)
+![Screenshot_2021-02-16-22-44-56-1](https://user-images.githubusercontent.com/78007167/111101924-1a123200-8575-11eb-8fbb-4f3e6096ba5e.png)
+![Screenshot_2021-02-16-22-45-13-1](https://user-images.githubusercontent.com/78007167/111101945-24343080-8575-11eb-91f6-b2d7c238a056.png)
 # GOOD Luck:)))<br>
 <br>
 
