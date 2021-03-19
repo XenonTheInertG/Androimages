@@ -1,0 +1,81 @@
+- Device platform: armeabi-v7a
+- Installing: 22.0 (22000)
+- Copying image to cache
+Parsing boot image: [/data/user_de/0/com.topjohnwu.magisk/install/boot.img]
+HEADER_VER      [0]
+KERNEL_SZ       [3718736]
+RAMDISK_SZ      [1394111]
+SECOND_SZ       [0]
+EXTRA_SZ        [0]
+PAGESIZE        [2048]
+NAME            [1441186574]
+CMDLINE         [bootopt=64S3,32S1,32S1 androidboot.selinux=permissive buildvariant=userdebug]
+CHECKSUM        [e09e9ce599d02b169f0d2ecf4a8088df0fb6d256000000000000000000000000]
+- Unpacking boot image
+MTK_KERNEL_HDR
+KERNEL          [3718224]
+NAME            [KERNEL]
+KERNEL_FMT      [raw]
+MTK_RAMDISK_HDR
+RAMDISK         [1393599]
+NAME            [ROOTFS]
+RAMDISK_FMT     [gzip]
+- Checking ramdisk status
+Loading cpio: [ramdisk.cpio]
+- Stock boot image detected
+- Patching ramdisk
+Loading cpio: [ramdisk.cpio]
+Add entry [init] (0750)
+Create directory [overlay.d] (0750)
+Create directory [overlay.d/sbin] (0750)
+Add entry [overlay.d/sbin/magisk32.xz] (0644)
+Patch with flag KEEPVERITY=[false] KEEPFORCEENCRYPT=[true]
+Found fstab file [fstab.mt6582]
+Loading cpio: [ramdisk.cpio.orig]
+Backup mismatch entry: [init] -> [.backup/init]
+Record new entry: [overlay.d] -> [.backup/.rmlist]
+Record new entry: [overlay.d/sbin] -> [.backup/.rmlist]
+Record new entry: [overlay.d/sbin/magisk32.xz] -> [.backup/.rmlist]
+Create directory [.backup] (0000)
+Add entry [.backup/.magisk] (0000)
+Dump cpio: [ramdisk.cpio]
+- Repacking boot image
+Parsing boot image: [/data/user_de/0/com.topjohnwu.magisk/install/boot.img]
+HEADER_VER      [0]
+KERNEL_SZ       [3718736]
+RAMDISK_SZ      [1394111]
+SECOND_SZ       [0]
+EXTRA_SZ        [0]
+PAGESIZE        [2048]
+NAME            [1441186574]
+CMDLINE         [bootopt=64S3,32S1,32S1 androidboot.selinux=permissive buildvariant=userdebug]
+CHECKSUM        [e09e9ce599d02b169f0d2ecf4a8088df0fb6d256000000000000000000000000]
+MTK_KERNEL_HDR
+KERNEL          [3718224]
+NAME            [KERNEL]
+KERNEL_FMT      [raw]
+MTK_RAMDISK_HDR
+RAMDISK         [1393599]
+NAME            [ROOTFS]
+RAMDISK_FMT     [gzip]
+Repack to boot image: [new-boot.img]
+HEADER_VER      [0]
+KERNEL_SZ       [3718736]
+RAMDISK_SZ      [1781957]
+SECOND_SZ       [0]
+EXTRA_SZ        [0]
+PAGESIZE        [2048]
+NAME            [1441186574]
+CMDLINE         [bootopt=64S3,32S1,32S1 androidboot.selinux=permissive buildvariant=userdebug]
+CHECKSUM        [fcf842424cba57655b030e7faca58c69eedb5b66000000000000000000000000]
+
+****************************
+ Output file is written to 
+ /storage/emulated/0/Download/magisk_patched_L8c36.img 
+****************************
+cp: can't preserve ownership of 'busybox': Operation not permitted
+cp: can't preserve ownership of 'magisk32': Operation not permitted
+cp: can't preserve ownership of 'magisk64': Operation not permitted
+cp: can't preserve ownership of 'magiskboot': Operation not permitted
+cp: can't preserve ownership of 'magiskinit': Operation not permitted
+- All done!
