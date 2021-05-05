@@ -1,4 +1,4 @@
-[img]https://i.imgur.com/yLVmYLn.png[/img]
+![img]https://i.imgur.com/yLVmYLn.png[/img]
 
 # Rec-Boot Bot
 
