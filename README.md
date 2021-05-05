@@ -1,5 +1,5 @@
 ![1_20210502_113350_0000](https://user-images.githubusercontent.com/78007167/117167512-21252600-ade9-11eb-96ff-fc33615cb7d0.png)
-![img]https://i.imgur.com/yLVmYLn.png[/img]
+
 
 # Rec-Boot Bot
 
