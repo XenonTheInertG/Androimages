@@ -6,64 +6,77 @@
 # A custom recovery is a third-party recovery environment. Flashing this recovery environment onto your device replaces the default, stock recovery environment with a third-party, customized recovery environment.
 # boot. img contains the kernel and ramdisk, critical files necessary to load the device before the filesystem can be mounted. You have to generate the boot. img yourself using mkbootimg, a tool provided by AOSP.
 
-# HOW TO USE Rec-Boot Boot v1.2<br>
-<br>
-<br>
-•Install busy box for your devices <br>
-• Rec-boot Bot supports 64/32bit. and must be android 5.0 or higher  But can port for all the latest android recovery.<br>
---------------------------------------------------------------------
+Rec-Boot Bot
+
+Stable version 3.0 released!
+Hey i made a tool for porting,managing,flashing,unpacking,repacking Boot & Recovery.
+
+What it can do?
+•Can Unpack Recovery & boot imagqtes
+•Can repack recovery & boot images
+•Can automatically port boot images
+•Can automatically port TWRP
+•Can port LOS based boot images
+•Can flash recovery & boot images
+•All in one.
+
+My Little creature yet powerful enough to do these work in only 9 seconds.
+
+• Rec-boot Bot supports 64/32bit. and must be android 5.0 or higher But can port for all the latest android recovery.
+
+•Auto port normal boot images:
+It can automatically port normal boot images super quickly in just 9 seconds:p
+
+•LOS based boot images:
+It can automatically port LOS based boot images automatically.
+
+• Auto port TWRP 3.0.2-7:
+It can port all the TWRP recoveries(also latest) 
+> TWRP supports all chipset
+Snapdragon,Mediatek,Spreadtrum,exynos,broadcom & kirin.
+
+•Manually Port section
+| Support all SOC,Use your Brain|
+jk
+in manual port menu you can
+>UNPACK BOOT
+>REPACK BOOT
+>UNPACK RECOVERY
+>REPACK RECOVERY
+
+•FLASH TOOL
+>Supports flash boot & recovery 
+>Supports 32bit &64bit
 
 
+How to install it?
+•if you have TWRP Recovery, you can easily install this with it. Download the zip & flash.
 
+If you don't TWRP recovery,you can install it manually with Mixplorer. Extract my zip file, copy the the folder name Xenon54 from the bin folder & paste it to system/bin & set permission to 751(rwx r-x--x), now copy the file from data/local (Xenon54) & paste it to data/local & set the permission to 755(rwx r-x r-x). Then reboot your phone:))
 
-# AUTO PORT menu<br>
-AUTO NORMAL BOOT menu<br>
-•Supports normal boot, <br>
-•cm based boot rom<br>
-•Stock boot.img should be placed in a folder called stock sleep 4 echo &amp; Port boot.img should be placed in a folder called port.<br>
-<br>
-# AUTO CM BOOT menu<br>
-• Support boot as a base cm rom<br>
-# Stock boot.img should be placed in a folder called stock &amp; Port boot.img should be placed in a folder called port.<br>
-• AUTO TWRP 3.0.2-7 <br>
-# Stock recovery.img should be placed in a folder called stock<br>
-• TWRP support all bits <br>
-Sample CPU&apos;S:<br>
- - mt6582<br>
- - mt6572<br>
-- mt6592 - mt6580<br>
-- mt6735 (only 32bit)<br>
-<br>
-# MANUALLY PROT menu<br>
-| Support all SOC,Use your Brain<br>
-<br>
-•UNPACK BOOT <br>
-•REPACK BOOT<br>
-•UNPACK RECOVERY <br>
-•REPACK RECOVERY <br>
-•FLASH TOOL <br>
-• Supports flash boot &amp; recovery Support 32bit<br>
-•Support 64bit
-
-# How to use it?
+How to Use it?
 •Open any termial app( i suggest terminal emulator)
 •type "su" & click enter
 •Then type "Xenon54" & click enter.
 A preview will be popped up.
 •Go to data/local,there you'll see two folders stock & port. Put your stock recovery/boot in it, in port folder, put your port recovery/boot.
+
 Bugs: Nothing, if you find any,Lemme know
-Screenshots: 
-![Screenshot_2021-02-16-22-44-52-1](https://user-images.githubusercontent.com/78007167/111101902-0d8dd980-8575-11eb-9c2f-0d21a285020b.png)
-![Screenshot_2021-02-16-22-44-56-1](https://user-images.githubusercontent.com/78007167/111101924-1a123200-8575-11eb-8fbb-4f3e6096ba5e.png)
-![Screenshot_2021-02-16-22-45-13-1](https://user-images.githubusercontent.com/78007167/111101945-24343080-8575-11eb-91f6-b2d7c238a056.png)
-# GOOD Luck:)))<br>
-<br>
+Rec-Boot Bot preview:
+First Section: [img]https://i.imgur.com/DCon4sf.png[/img]
+
+Auto Port section:
+
+Manual Port section:
+
+Flash Tool section: 
 
 
+Downloads:
+V1.0
+V2.0
+V3.0
+You can make my day if you use it & get benefitted;)
 
-# Check out my XDA thread:[https://forum.xda-developers.com/t/rec-boot-bot.4237761/]
-________________________________________________________________________________________________________________________________________________
+Thanks for reading,This is XenonTheInertG,See you around
 
-
-
-This XenonTheInertG. Using this tool will make my day;)
