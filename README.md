@@ -6,29 +6,29 @@
 # A custom recovery is a third-party recovery environment. Flashing this recovery environment onto your device replaces the default, stock recovery environment with a third-party, customized recovery environment.
 # boot. img contains the kernel and ramdisk, critical files necessary to load the device before the filesystem can be mounted. You have to generate the boot. img yourself using mkbootimg, a tool provided by AOSP.
 
-Rec-Boot Bot
+
 
 Stable version 3.0 released!
 Hey i made a tool for porting,managing,flashing,unpacking,repacking Boot & Recovery.
 
-What it can do?
-|•Can Unpack Recovery & boot imagqtes
+#What it can do?
+>•Can Unpack Recovery & boot imagqtes
 •Can repack recovery & boot images
 •Can automatically port boot images
 •Can automatically port TWRP
 •Can port LOS based boot images
 •Can flash recovery & boot images
-•All in one.|
+•All in one.
 
 My Little creature yet powerful enough to do these work in only 9 seconds.
 
 • Rec-boot Bot supports 64/32bit. and must be android 5.0 or higher But can port for all the latest android recovery.
 
 •Auto port normal boot images:
-|It can automatically port normal boot images super quickly in just 9 seconds:p|
+>It can automatically port normal boot images super quickly in just 9 seconds:p
 
 •LOS based boot images:
-|It can automatically port LOS based boot images automatically|
+>It can automatically port LOS based boot images automatically
 
 • Auto port TWRP 3.0.2-7:
 It can port all the TWRP recoveries(also latest) 
