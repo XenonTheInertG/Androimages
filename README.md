@@ -11,7 +11,7 @@
 Stable version 3.0 released!
 Hey i made a tool for porting,managing,flashing,unpacking,repacking Boot & Recovery.
 
-#What it can do?
+# What it can do?
 >•Can Unpack Recovery & boot imagqtes
 •Can repack recovery & boot images
 •Can automatically port boot images
