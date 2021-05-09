@@ -44,7 +44,7 @@ fi;
 
 case $0 in *.sh) clear;; esac;
 echo "\nAndroid Image Kitchen - UnpackImg Script";
-echo "by osm0sis @ xda-developers\n";
+echo "by XenonTheInertG  @ xda-developers\n";
 
 file=$($bb basename "$img");
 echo "Supplied image: $file\n";
