@@ -6,32 +6,32 @@ clear;
 exit;
 }
 
-#######################################
-#                   Rec-Boot Bot                  #
+############################################################
+#                   Rec-Boot Bot                           #
 #       Auto boot & reco port tool by XenonTheInertG       #
-#                   Stable version 1.2            #
-#        Huge shoutout to to my parents & all the devs      #
-#######################################
+#                   Stable version V3.0                    #
+#        											      #
+############################################################
 
 auto_tools()
 {
 clear;
 echo ""
-echo -e "************************************************************";
-echo -e "*                                                          *";
-echo -e "*                      $y AUTO PORT MENU$c                     *";
-echo -e "*                                                          *";
-echo -e "************************************************************";
+echo -e "____________________________________________________________";
+echo -e "|                                                          |";
+echo -e "|                      $y AUTO PORT MENU$c                 |";
+echo -e "|                                                          |";
+echo -e "|__________________________________________________________|";
 echo ""
-echo "][***************************][";
-echo -e "][$y A. AUTO NORMAL BOOT$c       ][";
-echo "][***************************][";
-echo -e "][$m B. AUTO CM BOOT$c           ]["; 
-echo "][***************************][";
-echo -e "][$cy C. AUTO TWRP 3.0.2-7$c      ][";
-echo "][***************************][";
-echo -e "][$y E. BACK$c                   ][";
-echo "][***************************][";
+echo "_______________________________________";
+echo -e "|$y A. AUTO NORMAL BOOT$c          |";
+echo "______________________________________|";
+echo -e "|$m B. AUTO LOS BOOT$c             |"; 
+echo "______________________________________|";
+echo -e "|$cy C. AUTO TWRP 3.0.2-7$c        |";
+echo "______________________________________|";
+echo -e "|$y E. BACK$c                      |";
+echo "______________________________________|";
 echo ""
 printf %s "Type your option [A, B, C, E] then press ENTER: ";
 read exmenv1;
@@ -141,7 +141,7 @@ cm_boot()
 clear
 echo""
 sleep 2
-echo "$cy Auto porting cm based boot$c"
+echo "$cy Auto porting los based boot$c"
 echo ""
 mkdir stock
 mkdir port
@@ -183,7 +183,7 @@ clear
 clear  
 echo ""
 sleep 2
-echo "$cy Auto porting cm based boot Done...!!!$c"
+echo "$cy Auto porting los based boot Done...!!!$c"
 else
 echo ""
      rm -r .script/ramdisk
@@ -329,23 +329,23 @@ manually_port()
 {
 clear;
 echo ""
-echo -e "************************************************************";
-echo -e "*                                                          *";
-echo -e "*                   $y MANUALLY PORT MENU$c                    *";
-echo -e "*                                                          *";
-echo -e "************************************************************";
+echo -e "____________________________________________________________";
+echo -e "|                                                          |";
+echo -e "|                   $y MANUALLY PORT MENU$c                |";
+echo -e "|                                                          |";
+echo -e "|__________________________________________________________|";
 echo ""
-echo "][***************************][";
-echo -e "][$y A. UNPACK BOOT$c            ]["; 
-echo "][***************************][";
-echo -e "][$cy B. REPACK BOOT$c            ][";
-echo "][***************************][";
-echo -e "][$y C. UNPACK RECOVERY$c        ][";
-echo "][***************************][";
-echo -e "][$cy D. REPACK RECOVERY$c        ][";
-echo "][***************************][";
-echo -e "][$y E. BACK$c                   ][";
-echo "][***************************][";
+echo "_______________________________________";
+echo -e "|$y   A. UNPACK BOOT$c             |"; 
+echo "______________________________________|";
+echo -e "|$cy  B. REPACK BOOT$c             |";
+echo "______________________________________|";
+echo -e "|$y   C. UNPACK RECOVERY$c         |";
+echo "______________________________________|";
+echo -e "|$cy  D. REPACK RECOVERY$c         |";
+echo "______________________________________|";
+echo -e "|$y   E. BACK$c                    |";
+echo "______________________________________|";
 echo ""
 printf %s "Type your option [A,B,C,D,E] then press ENTER: ";
 read exmenv2;
@@ -589,23 +589,23 @@ flash_tool()
 {
 clear;
 echo ""
-echo -e "************************************************************";
-echo -e "*                                                          *";
-echo -e "*                    $y FLASH TOOLS MENU$c                     *";
-echo -e "*                                                          *";
-echo -e "************************************************************";
+echo -e "_____________________________________________________________";
+echo -e "|                                                           |";
+echo -e "|                    $y FLASH TOOLS MENU$c                  |";
+echo -e "|                                                           |";
+echo -e "|___________________________________________________________|";
 echo ""
-echo "][***************************][";
-echo -e "][$y A. FLASH BOOT 32BIT$c       ]["; 
-echo "][***************************][";
-echo -e "][$cy B. FLASH BOOT 64BIT$c       ]["; 
-echo "][***************************][";
-echo -e "][$y C. FLASH RECOVERY 32BIT$c   ]["; 
-echo "][***************************][";
-echo -e "][$cy D. FLASH RECOVERY 64BIT$c   ]["; 
-echo "][***************************][";
-echo -e "][$y E. BACK$c                   ][";
-echo "][***************************][";
+echo "________________________________________";
+echo -e "|$y  A. FLASH BOOT 32BIT$c          |"; 
+echo "_______________________________________|";
+echo -e "|$cy B. FLASH BOOT 64BIT$c          |"; 
+echo "_______________________________________|";
+echo -e "|$y  C. FLASH RECOVERY 32BIT$c      |"; 
+echo "_______________________________________|";
+echo -e "|$cy D. FLASH RECOVERY 64BIT$c      |"; 
+echo "_______________________________________|";
+echo -e "|$y  E. BACK$c                      |";
+echo "_______________________________________|";
 echo ""
 printf %s "Type your option [A, B, C, D, E] then press ENTER: ";
 read exmenv3;
@@ -720,7 +720,7 @@ echo ""
 echo ""
 sleep 2
 if [[ -f /data/local/Xenon54/boot-new.img ]]; then
-dd if=/data/local/Auto-Tool/boot-new.img of=/dev/block/platform/mtk-msdc.0/by-name/boot
+dd if=/data/local/Xenon54/boot-new.img of=/dev/block/platform/mtk-msdc.0/by-name/boot
 else
 echo ""
 echo ""
@@ -906,10 +906,10 @@ help()
 {
 clear;
 echo ""
-echo -e "************************************************************";
-echo -e "*                       $y HOW TO USE$c                        *";
-echo -e "*                   $cy Rec-Boot Boot v1.2$c             *";
-echo -e "************************************************************";
+echo -e "________________________________________________________________";
+echo -e "|                       $y HOW TO USE$c                        |";
+echo -e "|                   $cy Rec-Boot Boot v3.0$c                   |";
+echo -e "|______________________________________________________________|";
 echo ""
 sleep 4
 echo "$cy - Install busy box for your devices.$c"
@@ -931,9 +931,9 @@ sleep 4
 echo "$cy Port boot.img should be placed in a folder called port.$c"
 echo ""
 sleep 4
-echo "$y 2.) AUTO CM BOOT menu$c"
+echo "$y 2.) AUTO LOS BOOT menu$c"
 sleep 4
-echo "$cy Support boot as a base cm rom$c"
+echo "$cy Support boot as a base LOS rom$c"
 sleep 4
 echo "$cy Stock boot.img should be placed in a folder called stock.$c"
 sleep 4
@@ -981,7 +981,7 @@ sleep 4
 echo "$cy Support 64bit$c"
 echo ""
 sleep 4
-echo "$y ************************************$c"
+echo "$y ___________________________________________________$c"
 sleep 5
 clear
 echo ""
@@ -990,7 +990,7 @@ sleep 4
 echo "$m          ......GOOD LUCK.....$c"
 echo ""
 sleep 2
-echo "$y If you still don'5 understand, please read this again.$c"
+echo "$y If you still don't understand, please read these note again.$c"
 sleep 5
 echo ""
 main;
@@ -1000,24 +1000,24 @@ main()
 {
 clear;
 echo ""
-echo -e "************************************************************";
-echo -e "*                     $y Rec-Boot Bot $c              *";
-echo -e "*                    $cy Auto Port Tool By BY$c                      *";
-echo -e "*               $m Bangladeshi Android Developer$c                 *";
-echo -e "*                      $r XenonTheInertG $c                      *";
-echo -e "************************************************************";
+echo -e "____________________________________________________________";
+echo -e "|                    $y Rec-Boot Bot $c                    |";
+echo -e "|                    $cy Auto Port Tool By $c              |";
+echo -e "|                      $m XenonTheInertG $c                |";
+echo -e "|                   $r Stable Version V3.0  $c             |";
+echo -e "|__________________________________________________________|";
 echo ""
-echo "][***************************][";
-echo -e "][$y A. AUTO PORT$c              ]["; 
-echo "][***************************][";
-echo -e "][$cy B. MANUALLY PORT$c          ][";
-echo "][***************************][";
-echo -e "][$y C. FLASH TOOL$c             ]["; 
-echo "][***************************][";
-echo -e "][$cy H. HELP$c                   ][";
-echo "][***************************][";
-echo -e "][$r Q. EXIT$c                   ][";
-echo "][***************************][";
+echo "_______________________________________";
+echo -e "|$y    A. AUTO PORT$c              |"; 
+echo "______________________________________|";
+echo -e "|$cy   B. MANUALLY PORT$c          |";
+echo "______________________________________|";
+echo -e "|$y    C. FLASH TOOL$c             |"; 
+echo "______________________________________|";
+echo -e "|$cy   H. HELP$c                   |";
+echo "______________________________________|";
+echo -e "|$r    Q. EXIT$c                   |";
+echo "______________________________________|";
 echo ""
 printf %s "Type your option [A, B, H, Q] then press ENTER: ";
 read exmenv;
