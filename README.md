@@ -66,19 +66,8 @@ A preview will be popped up.
 
 Bugs: Nothing, if you find any,Lemme know
 Rec-Boot Bot preview:
-First Section: [img]https://i.imgur.com/DCon4sf.png[/img]
-
-Auto Port section:
-
-Manual Port section:
-
-Flash Tool section: 
-
-
-Downloads:
-V1.0
-V2.0
-V3.0
+# Check out my XDA post:
+[https://forum.xda-developers.com/t/rec-boot-bot.4237761/#post-84547793]
 You can make my day if you use it & get benefitted;)
 
 Thanks for reading,This is XenonTheInertG,See you around
