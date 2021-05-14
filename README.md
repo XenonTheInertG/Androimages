@@ -59,8 +59,8 @@ If you don't TWRP recovery,you can install it manually with Mixplorer. Extract m
 
 How to Use it?
 •Open any termial app( i suggest terminal emulator)
-•type "su" & click enter
-•Then type "Xenon54" & click enter.
+•type `su` & click enter
+•Then type `Xenon54` & click enter.
 A preview will be popped up.
 •Go to data/local,there you'll see two folders stock & port. Put your stock recovery/boot in it, in port folder, put your port recovery/boot.
 
