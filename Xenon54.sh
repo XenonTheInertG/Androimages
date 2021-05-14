@@ -10,7 +10,7 @@ exit;
 #                   Rec-Boot Bot                           #
 #       Auto boot & reco port tool by XenonTheInertG       #
 #                   Stable version V3.0                    #
-#        											      #
+#        						   #					      #
 ############################################################
 
 auto_tools()
