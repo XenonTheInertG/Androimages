@@ -16,12 +16,18 @@ Hey i made a tool for porting,managing,flashing,unpacking,repacking Boot & Recov
 
 # What it can do?
 >
-•Can Unpack Recovery & boot imagqtes
+•Can Unpack Recovery & boot images
+
 •Can repack recovery & boot images
+
 •Can automatically port boot images
+
 •Can automatically port TWRP
+
 •Can port LOS based boot images
+
 •Can flash recovery & boot images
+
 •All in one.
 
 My Little creature yet powerful enough to do these work in only 9 seconds.
@@ -44,12 +50,16 @@ Snapdragon,Mediatek,Spreadtrum,exynos,broadcom & kirin.
 jk
 in manual port menu you can
 •UNPACK BOOT
+
 •REPACK BOOT
+
 •UNPACK RECOVERY
+
 •REPACK RECOVERY
 
 # FLASH TOOL
 •Supports flash boot & recovery 
+
 •Supports 32bit &64bit
 
 
@@ -60,6 +70,7 @@ If you don't TWRP recovery,you can install it manually with Mixplorer. Extract m
 
 How to Use it?
 •Open any termial app( i suggest terminal emulator)
+
 •type `su` & click enter
 
 •Then type `Xenon54` & click enter.
