@@ -15,13 +15,13 @@ Stable version 3.0 released!
 Hey i made a tool for porting,managing,flashing,unpacking,repacking Boot & Recovery.
 
 # What it can do?
->Can Unpack Recovery & boot imagqtes
->Can repack recovery & boot images
->Can automatically port boot images
->Can automatically port TWRP
->Can port LOS based boot images
->Can flash recovery & boot images
->All in one.
+>•Can Unpack Recovery & boot imagqtes
+>•Can repack recovery & boot images
+>•Can automatically port boot images
+>•Can automatically port TWRP
+>•Can port LOS based boot images
+>•Can flash recovery & boot images
+>•All in one.
 
 My Little creature yet powerful enough to do these work in only 9 seconds.
 
