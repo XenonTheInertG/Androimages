@@ -81,7 +81,8 @@ Bugs: Nothing, if you find any,Lemme know
 Rec-Boot Bot preview:
 # Check out my XDA post:
 [https://forum.xda-developers.com/t/rec-boot-bot.4237761/#post-84547793]
-You can make my day if you use it & get benefitted;)
+
+You can make my day by using it;)
 
 Thanks for reading,This is XenonTheInertG,See you around
 
