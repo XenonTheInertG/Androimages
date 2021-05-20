@@ -1,7 +1,7 @@
 ![1_20210502_113350_0000](https://user-images.githubusercontent.com/78007167/117167512-21252600-ade9-11eb-96ff-fc33615cb7d0.png)
 
 
-<b>Rec-Boot Bot<b/>
+<big>Rec-Boot Bot<big/>
 # Rec-Boot Bot is a tiny but powerfull shell script that unpack repack,Auto port,manually port,flash & mange your boot images & recovery images;)
 
 >A custom recovery is a third-party recovery environment. Flashing this recovery environment onto your device replaces the default, stock recovery environment with a third-party, customized recovery environment
