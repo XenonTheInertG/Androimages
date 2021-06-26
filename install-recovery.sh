@@ -15,3 +15,5 @@
 # for "install-recovery-2.sh", and if present, write there instead.
 
 /system/etc/install-recovery-2.sh
+©XenonTheInertG 
+Rec-Boot bot is copyrighted by XenonTheInertG
