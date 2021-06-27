@@ -55,8 +55,7 @@ in manual port menu you can
 
 # How to install it?
 - if you have TWRP Recovery, you can easily install this with it. Download the zip & flash.
-
-If you don't TWRP recovery,you can install it manually with Mixplorer. Extract my zip file, copy the the folder name Xenon54 from the bin folder & paste it to system/bin & set permission to 751(rwx r-x--x), now copy the file from data/local (Xenon54) & paste it to data/local & set the permission to 755(rwx r-x r-x). Then reboot your phone:))
+- If you don't TWRP recovery,you can install it manually with Mixplorer. Extract my zip file, copy the the folder name Xenon54 from the bin folder & paste it to system/bin & set permission to 751(rwx r-x--x), now copy the file from data/local (Xenon54) & paste it to data/local & set the permission to 755(rwx r-x r-x). Then reboot your phone:))
 
 How to Use it?
 - Open any termial app( i suggest terminal emulator)
