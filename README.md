@@ -17,17 +17,11 @@ Hey i made a tool for porting,managing,flashing,unpacking,repacking Boot & Recov
 # What it can do?
 >
 - Can Unpack Recovery & boot images
-
 - Can repack recovery & boot images
-
 - Can automatically port boot images
-
 - Can automatically port TWRP
-
 - Can port LOS based boot images
-
 - Can flash recovery & boot images
-
 - All in one.
 
 My Little creature yet powerful enough to do these work in only 9 seconds.
