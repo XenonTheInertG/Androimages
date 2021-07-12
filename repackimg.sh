@@ -1,6 +1,6 @@
 #!/bin/bash
-# AIK-Linux/repackimg: repack ramdisk and build image
-# Rec-Boot Bot @ xda-developers
+# Rec-Boot Bot/repackimg: repack ramdisk and build image
+# XenonTheInertG @ xda-developers
 
 abort() { echo "Error!"; }
 
