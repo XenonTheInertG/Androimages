@@ -9,7 +9,7 @@ exit;
 ############################################################
 #                   Rec-Boot Bot                           #
 #       Auto boot & reco port tool by XenonTheInertG       #
-#                   Stable version V3.0                    #
+#                   Stable version V4.0                    #
 #        						   #					      #
 ############################################################
 
@@ -908,7 +908,7 @@ clear;
 echo ""
 echo -e "________________________________________________________________";
 echo -e "|                       $y HOW TO USE$c                        |";
-echo -e "|                   $cy Rec-Boot Boot v3.0$c                   |";
+echo -e "|                   $cy Rec-Boot Boot v4.0$c                   |";
 echo -e "|______________________________________________________________|";
 echo ""
 sleep 4
@@ -1004,7 +1004,7 @@ echo -e "____________________________________________________________";
 echo -e "|                    $y Rec-Boot Bot $c                    |";
 echo -e "|                    $cy Auto Port Tool By $c              |";
 echo -e "|                      $m XenonTheInertG $c                |";
-echo -e "|                   $r Stable Version V3.0  $c             |";
+echo -e "|                   $r Stable Version V4.0  $c             |";
 echo -e "|__________________________________________________________|";
 echo ""
 echo "_______________________________________";
