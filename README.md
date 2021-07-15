@@ -11,7 +11,7 @@
 
 
 
-Stable version 3.0 released!
+Stable version 3.0 released! 4.0 Coming
 Hey i made a tool for porting,managing,flashing,unpacking,repacking Boot & Recovery.
 
 # What it can do?
