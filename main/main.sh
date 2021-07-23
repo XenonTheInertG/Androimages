@@ -6,13 +6,13 @@ clear;
 exit;
 }
 
-############################################################
-#                   Rec-Boot Bot                           #
-#       Auto boot & reco port tool by XenonTheInertG       #
-#                   Stable version V4.0                   #
-#        Huge shoutout to to my parents & all the devs     #
-############################################################
-
+____________________________________________________________
+|                    Rec-Boot Bot                          |
+|     Auto boot & reco port tool by XenonTheInertG         |
+|                 Stable version V5.0                      |
+|        Huge shoutout to to my parents & all the devs     |
+|__________________________________________________________|
+ 
 auto_tools()
 {
 clear;
