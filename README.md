@@ -4,6 +4,8 @@
 # Rec-Boot Bot
 # Rec-Boot Bot is a tiny but powerfull shell script that unpack repack,Auto port,manually port,flash & mange your boot images & recovery images;)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2cadab25a04c42779f3203b4a61bd6ef)](https://app.codacy.com/gh/XenonTheInertG/Rec-Boot-Bot?utm_source=github.com&utm_medium=referral&utm_content=XenonTheInertG/Rec-Boot-Bot&utm_campaign=Badge_Grade)
+
 - A custom recovery is a third-party recovery environment. Flashing this recovery environment onto your device replaces the default, stock recovery environment with a third-party, customized recovery environment
 
 
