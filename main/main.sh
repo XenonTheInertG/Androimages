@@ -10,7 +10,7 @@ ____________________________________________________________
 |                    Rec-Boot Bot                          |
 |     Auto boot & reco port tool by XenonTheInertG         |
 |                 Stable version V5.0                      |
-|        Huge shoutout to to my parents & all the devs     |
+|                  Wanna contribute?                       |
 |__________________________________________________________|
  
 auto_tools()
@@ -24,7 +24,7 @@ echo -e "|                                                          |";
 echo -e "|__________________________________________________________|";
 echo ""
 echo "_______________________________________";
-echo -e "|$y A. AUTO NORMAL BOOT$c          |";
+echo -e "|$y A. AUTO GENERIC BOOT$c         |";
 echo "______________________________________|";
 echo -e "|$m B. AUTO LOS BOOT$c             |"; 
 echo "______________________________________|";
@@ -49,7 +49,7 @@ normal_boot()
 clear
 echo""
 sleep 2
-echo "$cy Auto porting normal based boot$c"
+echo "$cy Auto porting generic based boot$c"
 echo ""
 mkdir stock
 mkdir port
@@ -89,7 +89,7 @@ clear
 clear 
 echo ""
 sleep 2
-echo "$cy Auto porting normal based boot Done...!!!$c"
+echo "$cy Auto porting generic based boot Done...!!!$c"
      else
 echo ""
      rm -r .script/ramdisk
