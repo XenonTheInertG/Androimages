@@ -1,6 +1,6 @@
 #!/bin/bash
 # Rec-Boot Bot/unpackimg: split image and unpack ramdisk
-# Osm0sis @ xda-developers
+# XenonTheInertG & Osm0sis @ xda-developers
 
 cleanup() { "$aik/cleanup.sh" $local --quiet; }
 abort() { echo "Error!"; }
