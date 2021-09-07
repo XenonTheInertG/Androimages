@@ -1,6 +1,6 @@
 #!/bin/bash
 # Rec-Boot Bot/cleanup: reset working directory
-# OsmOsis @ xda-developers
+# XenonTheInertG & OsmOsis @ xda-developers
 
 case $1 in
   --help) echo "usage: cleanup.sh [--local] [--quiet]"; exit 1;
