@@ -1,6 +1,6 @@
 #!/bin/bash
 # AIK-Linux/repackimg: repack ramdisk and build image
-# OsmOsis @ xda-developers
+# Osmosis & XenonTheInertG @ xda-developers
 
 abort() { echo "Error!"; }
 
