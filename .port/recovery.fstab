@@ -24,5 +24,3 @@
 # vold
 /external_sd		auto		/dev/block/mmcblk1p1	/dev/block/mmcblk1    flags=display="External SD-card";storage;wipeingui;removable;backup=0
 /usbotg			auto    /dev/block/sda1	 /dev/block/sda			flags=display="USB-OTG";storage;wipeingui;removable;backup=0
-
-#TWRP 3.0.2-7 by XenonTheInertG
