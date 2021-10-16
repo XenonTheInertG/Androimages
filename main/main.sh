@@ -6,13 +6,13 @@ clear;
 exit;
 }
 
-____________________________________________________________
-|                    Rec-Boot Bot                          |
-|     Auto boot & reco port tool by XenonTheInertG         |
-|                 Stable version V5.0                      |
-|                  Wanna contribute?                       |
-|__________________________________________________________|
- 
+############################################################
+#                   Rec-Boot Bot                           #
+#       Auto boot & reco port tool by XenonTheInertG       #
+#                   Stable version V4.0                    #
+#        Huge shoutout to to my parents & all the devs     #
+############################################################
+
 auto_tools()
 {
 clear;
@@ -24,7 +24,7 @@ echo -e "|                                                          |";
 echo -e "|__________________________________________________________|";
 echo ""
 echo "_______________________________________";
-echo -e "|$y A. AUTO GENERIC BOOT$c         |";
+echo -e "|$y A. AUTO NORMAL BOOT$c          |";
 echo "______________________________________|";
 echo -e "|$m B. AUTO LOS BOOT$c             |"; 
 echo "______________________________________|";
@@ -49,7 +49,7 @@ normal_boot()
 clear
 echo""
 sleep 2
-echo "$cy Auto porting generic based boot$c"
+echo "$cy Auto porting normal based boot$c"
 echo ""
 mkdir stock
 mkdir port
@@ -60,25 +60,25 @@ read enter
 echo "$y Press enter Please......!!!!!$c"
 read enter
 clear
-if [[ -f /data/local/Xenon54/stock/boot.img ]]; then
+if [[ -f /data/local/RRB/stock/boot.img ]]; then
 mv stock/boot.img .script/
 ./.script/unpackimg.sh
-if [[ -f /data/local/Xenon54/.script/ramdisk/default.prop ]]; then
+if [[ -f /data/local/RRB/.script/ramdisk/default.prop ]]; then
 mv .script/ramdisk stock/
 mv .script/split_img stock/
 mv .script/boot.img stock/
 clear
-   if [[ -f /data/local/Xenon54/port/boot.img ]]; then
+   if [[ -f /data/local/RRB/port/boot.img ]]; then
      mv port/boot.img .script/
      ./.script/unpackimg.sh
-     if [[ -f /data/local/Xenon54/.script/ramdisk/default.prop ]]; then
+     if [[ -f /data/local/RRB/.script/ramdisk/default.prop ]]; then
      mv .script/boot.img port/ 
      clear
      rm -r .script/split_img/boot.img-zImage
      cp stock/split_img/boot.img-zImage .script/split_img/  
      clear
      ./.script/repackimg.sh
-     if [[ -f /data/local/Xenon54/.script/image-new.img ]]; then
+     if [[ -f /data/local/RRB/.script/image-new.img ]]; then
      mv .script/image-new.img boot-new.img  
      clear
      ./.script/cleanup.sh
@@ -89,7 +89,7 @@ clear
 clear 
 echo ""
 sleep 2
-echo "$cy Auto porting generic based boot Done...!!!$c"
+echo "$cy Auto porting normal based boot Done...!!!$c"
      else
 echo ""
      rm -r .script/ramdisk
@@ -110,7 +110,7 @@ echo ""
    else
 echo ""
 rm -r port
-	echo -e " $r no boot.img in /data/local/Xenon54/port...$c";
+	echo -e " $r no boot.img in /data/local/RRB/port...$c";
    fi 
 else
 echo ""
@@ -126,7 +126,7 @@ rm -r port
 else
 echo ""
 rm -r stock
-	echo -e " $r no boot.img in /data/local/Xenon54/stock....$c";
+	echo -e " $r no boot.img in /data/local/RRB/stock....$c";
 fi
 echo ""
 sleep 2
@@ -152,18 +152,18 @@ read enter
 echo "$y Press enter Please......!!!!!$c"
 read enter
 clear
-if [[ -f /data/local/Xenon54/stock/boot.img ]]; then
+if [[ -f /data/local/RRB/stock/boot.img ]]; then
 mv stock/boot.img .script/
 ./.script/unpackimg.sh
-if [[ -f /data/local/Xenon54/.script/ramdisk/default.prop ]]; then
+if [[ -f /data/local/RRB/.script/ramdisk/default.prop ]]; then
 mv .script/ramdisk stock/
 mv .script/split_img stock/
 mv .script/boot.img stock/
 clear
-   if [[ -f /data/local/Xenon54/port/boot.img ]]; then
+   if [[ -f /data/local/RRB/port/boot.img ]]; then
      mv port/boot.img .script/
      ./.script/unpackimg.sh
-     if [[ -f /data/local/Xenon54/.script/ramdisk/default.prop ]]; then
+     if [[ -f /data/local/RRB/.script/ramdisk/default.prop ]]; then
      mv .script/boot.img port/  
      clear
      rm -r .script/split_img/boot.img-zImage
@@ -172,7 +172,7 @@ clear
      cp stock/ramdisk/ueventd.rc .script/ramdisk/   
      clear
      ./.script/repackimg.sh
-     if [[ -f /data/local/Xenon54/.script/image-new.img ]]; then
+     if [[ -f /data/local/RRB/.script/image-new.img ]]; then
      mv .script/image-new.img boot-new.img     
      clear
      ./.script/cleanup.sh
@@ -204,7 +204,7 @@ echo ""
    else
 echo ""
 rm -r port
-	echo -e " $r no boot.img in /data/local/Xenon54/port...$c";
+	echo -e " $r no boot.img in /data/local/RRB/port...$c";
    fi
 else
 echo ""
@@ -220,7 +220,7 @@ rm -r port
 else
 echo ""
 rm -r stock
-	echo -e " $r no boot.img in /data/local/Xenon54/stock....$c";
+	echo -e " $r no boot.img in /data/local/RRB/stock....$c";
 fi
 echo ""
 sleep 2
@@ -245,37 +245,37 @@ read enter
 echo "$y Press enter Please......!!!!!$c"
 read enter
 clear
-if [[ -f /data/local/Xenon54/stock/recovery.img ]]; then
+if [[ -f /data/local/RRB/stock/recovery.img ]]; then
 mv stock/recovery.img .script/
 ./.script/unpackimg.sh
-if [[ -f /data/local/Xenon54/.script/ramdisk/default.prop ]]; then
+if [[ -f /data/local/RRB/.script/ramdisk/default.prop ]]; then
 mv .script/ramdisk stock/
 mv .script/split_img stock/
 mv .script/recovery.img stock/
    clear
    mv .port/twrp.img .script/
    ./.script/unpackimg.sh
-   if [[ -f /data/local/Xenon54/.script/ramdisk/file_contexts ]]; then
+   if [[ -f /data/local/RRB/.script/ramdisk/file_contexts ]]; then
    mv .script/twrp.img .port/
    clear
    rm -r .script/split_img/twrp.img-zImage
    mv stock/split_img/recovery.img-zImage .script/split_img/twrp.img-zImage
    cp stock/ramdisk/default.prop .script/ramdisk/
    cp stock/ramdisk/ueventd.rc .script/ramdisk/
-   if [[ -f /data/local/Xenon54/stock/ramdisk/fstab ]]; then      
+   if [[ -f /data/local/RRB/stock/ramdisk/fstab ]]; then      
      cp stock/ramdisk/fstab .script/ramdisk/ 
      else
      cp stock/ramdisk/fstab.mt* .script/ramdisk/    
    fi 
-   if [[ -f /data/local/Xenon54/.script/ramdisk/fstab.mt6580 ]]; then 
+   if [[ -f /data/local/RRB/.script/ramdisk/fstab.mt6580 ]]; then 
      cp .port/recovery.fstab .script/ramdisk/etc/  
    fi
-   if [[ -f /data/local/Xenon54/.script/ramdisk/fstab.mt6735 ]]; then  
+   if [[ -f /data/local/RRB/.script/ramdisk/fstab.mt6735 ]]; then  
      cp .port/recovery.fstab .script/ramdisk/etc/  
    fi   
    clear
    ./.script/repackimg.sh
-   if [[ -f /data/local/Xenon54/.script/image-new.img ]]; then  
+   if [[ -f /data/local/RRB/.script/image-new.img ]]; then  
    mv .script/image-new.img recovery-new.img
    clear
    ./.script/cleanup.sh
@@ -315,7 +315,7 @@ fi
 else
 echo ""
 rm -r stock
-	echo -e " $r no stock recovery.img in /data/local/Xenon54/stock....$c";
+	echo -e " $r no stock recovery.img in /data/local/RRB/stock....$c";
 fi
 sleep 2
 echo ""
@@ -375,18 +375,18 @@ read enter
 echo "$y Press enter Please......!!!!!$c"
 read enter
 clear
-if [[ -f /data/local/Xenon54/stock/boot.img ]]; then
+if [[ -f /data/local/RRB/stock/boot.img ]]; then
 mv stock/boot.img .script/
 ./.script/unpackimg.sh
-if [[ -f /data/local/Xenon54/.script/ramdisk/default.prop ]]; then
+if [[ -f /data/local/RRB/.script/ramdisk/default.prop ]]; then
 mv .script/ramdisk stock/
 mv .script/split_img stock/
 mv .script/boot.img stock/
 clear
-if [[ -f /data/local/Xenon54/port/boot.img ]]; then
+if [[ -f /data/local/RRB/port/boot.img ]]; then
 mv port/boot.img .script/
 ./.script/unpackimg.sh
-if [[ -f /data/local/Xenon54/.script/ramdisk/default.prop ]]; then
+if [[ -f /data/local/RRB/.script/ramdisk/default.prop ]]; then
 mv .script/ramdisk port/
 mv .script/split_img port/
 mv .script/boot.img port/
@@ -406,7 +406,7 @@ fi
 else
 echo ""
 rm -r port
-	echo -e " $r no boot.img in /data/local/Auto-Tool/port....$c";
+	echo -e " $r no boot.img in /data/local/RRB/port....$c";
    fi
 else
 echo ""
@@ -422,7 +422,7 @@ fi
 else
 echo ""
 rm -r stock
-	echo -e " $r no boot.img in /data/local/Xenon54/stock....$c";
+	echo -e " $r no boot.img in /data/local/RRB/stock....$c";
 fi
 echo ""
 sleep 2
@@ -445,7 +445,7 @@ clear
 mv port/ramdisk .script/
 mv port/split_img .script
   ./.script/repackimg.sh
-  if [[ -f /data/local/Xenon54/.script/image-new.img ]]; then
+  if [[ -f /data/local/RRB/.script/image-new.img ]]; then
   mv .script/image-new.img boot-new.img
   clear
   ./.script/cleanup.sh
@@ -487,18 +487,18 @@ read enter
 echo "$y Press enter Please......!!!!!$c"
 read enter
 clear
-if [[ -f /data/local/Xenon54/stock/recovery.img ]]; then
+if [[ -f /data/local/RRB/stock/recovery.img ]]; then
 mv stock/recovery.img .script/
 ./.script/unpackimg.sh
-if [[ -f /data/local/Xenon54/.script/ramdisk/default.prop ]]; then
+if [[ -f /data/local/RRB/.script/ramdisk/default.prop ]]; then
 mv .script/ramdisk stock/
 mv .script/split_img stock/
 mv .script/recovery.img stock/
 clear
-  if [[ -f /data/local/Xenon54/port/recovery.img ]]; then
+  if [[ -f /data/local/RRB/port/recovery.img ]]; then
     mv port/recovery.img .script/
     ./.script/unpackimg.sh  
-    if [[ -f /data/local/Xenon54/.script/ramdisk/default.prop ]]; then
+    if [[ -f /data/local/RRB/.script/ramdisk/default.prop ]]; then
     mv .script/ramdisk port/
     mv .script/split_img port/
     mv .script/recovery.img port/  
@@ -519,7 +519,7 @@ fi
   else
   echo ""
   rm -r port
-	echo -e " $r no recovery.img in /data/local/Xenon54/port....$c";
+	echo -e " $r no recovery.img in /data/local/RRB/port....$c";
    fi   
    else
 echo ""
@@ -536,7 +536,7 @@ fi
 else
 echo ""
 rm -r stock
-	echo -e " $r no recovery.img in /data/local/Xenon54/stock....$c";
+	echo -e " $r no recovery.img in /data/local/RRB/stock....$c";
 fi
 echo ""
 sleep 2
@@ -559,7 +559,7 @@ clear
 mv port/ramdisk .script/
 mv port/split_img .script
 ./.script/repackimg.sh
-if [[ -f /data/local/Xenon54/.script/image-new.img ]]; then
+if [[ -f /data/local/RRB/.script/image-new.img ]]; then
 mv .script/image-new.img recovery-new.img
 clear
 ./.script/cleanup.sh
@@ -625,7 +625,7 @@ clear
 echo""
 echo ""
 sleep 2
-echo "$cy Flashing boot 32bit from /data/local/Xenon54$c"
+echo "$cy Flashing boot 32bit from /data/local/RRB$c"
 echo ""
 echo "$r              ...Warning ..!!!$c"
 echo ""
@@ -649,7 +649,7 @@ echo ""
 echo ""
 echo "$y Please..!! copy boot.img and rename a boot-new.img.$c"
 echo ""
-echo "$y And put it in /data/local/Xenon54$c"
+echo "$y And put it in /data/local/RRB$c"
 echo ""
 ls
 read enter
@@ -659,12 +659,12 @@ clear
 echo ""
 echo ""
 sleep 2
-if [[ -f /data/local/Xenon54/boot-new.img ]]; then
-dd if=/data/local/Xenon54/boot-new.img of=/dev/bootimg
+if [[ -f /data/local/RRB/boot-new.img ]]; then
+dd if=/data/local/RRB/boot-new.img of=/dev/bootimg
 else
 echo ""
 echo ""
-echo -e " $r no boot-new.img in /data/local/Xenon54/..!!!$c";
+echo -e " $r no boot-new.img in /data/local/RRB/..!!!$c";
 echo ""
 echo "$y Press Enter to flash tool menu$c"
 read enterKey
@@ -685,7 +685,7 @@ clear
 echo""
 echo ""
 sleep 2
-echo "$cy Flashing boot 64bit from /data/local/Xenon54$c"
+echo "$cy Flashing boot 64bit from /data/local/RRB$c"
 echo ""
 echo "$r              ...Warning ..!!!$c"
 echo ""
@@ -709,7 +709,7 @@ echo ""
 echo ""
 echo "$y Please..!! copy boot.img and rename a boot-new.img.$c"
 echo ""
-echo "$y And put it in /data/local/Xenon54$c"
+echo "$y And put it in /data/local/RRB$c"
 echo ""
 ls
 read enter
@@ -719,12 +719,12 @@ clear
 echo ""
 echo ""
 sleep 2
-if [[ -f /data/local/Xenon54/boot-new.img ]]; then
-dd if=/data/local/Xenon54/boot-new.img of=/dev/block/platform/mtk-msdc.0/by-name/boot
+if [[ -f /data/local/RRB/boot-new.img ]]; then
+dd if=/data/local/RRB/boot-new.img of=/dev/block/platform/mtk-msdc.0/by-name/boot
 else
 echo ""
 echo ""
-echo -e " $r no boot-new.img in /data/local/Xenon54/..!!!$c";
+echo -e " $r no boot-new.img in /data/local/RRB/..!!!$c";
 echo ""
 echo "$y Press Enter to flash tool menu$c"
 read enterKey
@@ -745,7 +745,7 @@ clear
 echo""
 echo ""
 sleep 2
-echo "$cy Flashing recovery 32bit from /data/local/Xenon54$c"
+echo "$cy Flashing recovery 32bit from /data/local/RRB$c"
 echo ""
 echo "$r              ...Warning ..!!!$c"
 echo ""
@@ -769,9 +769,9 @@ echo ""
 echo ""
 echo "$y Please..!! copy recovery.img and rename a recovery-new.img.$c"
 echo ""
-echo "$y And put it in /data/local/Xenon54$c"
+echo "$y And put it in /data/local/RRB$c"
 echo ""
-ls /data/local/Xenon54
+ls /data/local/RRB
 read enter
 echo "$y Press enter Please......!!!!!$c"
 read enter
@@ -780,12 +780,12 @@ echo ""
 echo ""
 echo "$cy Flashing recovery for 32bit..!!$c"
 echo ""
-if [[ -f /data/local/Xenon54/recovery-new.img ]]; then
-dd if=/data/local/Xenon54/recovery-new.img of=/dev/recovery
+if [[ -f /data/local/RRB/recovery-new.img ]]; then
+dd if=/data/local/RRB/recovery-new.img of=/dev/recovery
 sleep 2
 else
 echo ""
-echo -e " $r no recovery-new.img in /data/local/Xenon54..!!!$c";
+echo -e " $r no recovery-new.img in /data/local/RRB..!!!$c";
 echo ""
 echo "$y Press Enter to flash tool menu$c"
 read enterKey
@@ -806,7 +806,7 @@ clear
 echo""
 echo ""
 sleep 2
-echo "$cy Flashing recovery 64bit from /data/local/Xenon54$c"
+echo "$cy Flashing recovery 64bit from /data/local/RRB$c"
 echo ""
 echo "$r              ...Warning ..!!!$c"
 echo ""
@@ -830,12 +830,12 @@ echo ""
 echo ""
 echo "$cy Flashing recovery for 64bit..!!$c"
 echo ""
-if [[ -f /data/local/Xenon54/recovery-new.img ]]; then
-dd if=/data/local/Xenon54/recovery-new.img of=/dev/block/platform/mtk-msdc.0/by-name/recovery
+if [[ -f /data/local/RRB/recovery-new.img ]]; then
+dd if=/data/local/RRB/recovery-new.img of=/dev/block/platform/mtk-msdc.0/by-name/recovery
 sleep 2
 else
 echo ""
-echo -e " $r no recovery-new.img in /data/local/Xenon54..!!!$c";
+echo -e " $r no recovery-new.img in /data/local/RRB..!!!$c";
 echo ""
 echo "$y Press Enter to flash tool menu$c"
 read enterKey
@@ -924,7 +924,7 @@ echo ""
 sleep 4
 echo "$y 1.) AUTO NORMAL BOOT menu$c"
 sleep 4
-echo "$cy Supports normal boot, cm based boot rom$c"
+echo "$cy Supports normal boot, los based boot rom$c"
 sleep 4
 echo "$cy Stock boot.img should be placed in a folder called stock.$c"
 sleep 4
