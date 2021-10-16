@@ -24,7 +24,7 @@ echo -e "|                                                          |";
 echo -e "|__________________________________________________________|";
 echo ""
 echo "_______________________________________";
-echo -e "|$y A. AUTO NORMAL BOOT$c          |";
+echo -e "|$y A. AUTO GENERIC BOOT$c          |";
 echo "______________________________________|";
 echo -e "|$m B. AUTO LOS BOOT$c             |"; 
 echo "______________________________________|";
@@ -49,7 +49,7 @@ normal_boot()
 clear
 echo""
 sleep 2
-echo "$cy Auto porting normal based boot$c"
+echo "$cy Auto porting generic based boot$c"
 echo ""
 mkdir stock
 mkdir port
@@ -89,7 +89,7 @@ clear
 clear 
 echo ""
 sleep 2
-echo "$cy Auto porting normal based boot Done...!!!$c"
+echo "$cy Auto porting generic based boot Done...!!!$c"
      else
 echo ""
      rm -r .script/ramdisk
@@ -922,9 +922,9 @@ echo ""
 echo "$y ...AUTO PORT menu...$c"
 echo ""
 sleep 4
-echo "$y 1.) AUTO NORMAL BOOT menu$c"
+echo "$y 1.) AUTO GENERIC BOOT menu$c"
 sleep 4
-echo "$cy Supports normal boot, los based boot rom$c"
+echo "$cy Supports generic boot, los based boot rom$c"
 sleep 4
 echo "$cy Stock boot.img should be placed in a folder called stock.$c"
 sleep 4
