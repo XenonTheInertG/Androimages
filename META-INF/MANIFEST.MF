@@ -4,79 +4,79 @@ Created-By: 1.0 (XenonTheInertG.)
 Name: META-INF/com/google/android/updater-script
 SHA1-Digest: VR3YM4dUQyvSok/1mtWJ79OQ2g4=
 
-Name: data/local/Xenon54/.port/twrp.img
+Name: data/local/RRB/.port/twrp.img
 SHA1-Digest: GWdJCLmxeIMRrLVUCn5i07okoNQ=
 
-Name: data/local/Xenon54/.script/bin/file
+Name: data/local/RRB/.script/bin/file
 SHA1-Digest: IOGoboR0TaHljGyjdxno/4R9thw=
 
-Name: data/local/Xenon54/.script/bin/unpackelf
+Name: data/local/RRB/.script/bin/unpackelf
 SHA1-Digest: 91dSJJtDzppLCGATtCQUwIFenDs=
 
-Name: data/local/Xenon54/.script/bin/mkbootfs
+Name: data/local/RRB/.script/bin/mkbootfs
 SHA1-Digest: 4MAyC83vGF1oFE6kcjgJ4x+AAuI=
 
-Name: data/local/Xenon54/.script/cleanup.sh
+Name: data/local/RRB/.script/cleanup.sh
 SHA1-Digest: Ax1UduEhdJQq8xI/IBlpJHrtcmQ=
 
-Name: data/local/Xenon54/Xenon54.sh
+Name: data/local/RRB/RRB.sh
 SHA1-Digest: yswbBEbNNEgZ/+jTWeNGRDRM/94=
 
-Name: data/local/Xenon54/.script/bin/futility
+Name: data/local/RRB/.script/bin/futility
 SHA1-Digest: 52w7Mn803hrrpKaHdnUiQGwcI3s=
 
-Name: data/local/Xenon54/.script/bin/lz4
+Name: data/local/RRB/.script/bin/lz4
 SHA1-Digest: iJHyVZbBmvgTTLQ6VsCF/1QiaOM=
 
-Name: data/local/Xenon54/.script/bin/chromeos/empty
+Name: data/local/RRB/.script/bin/chromeos/empty
 SHA1-Digest: rcg7GeeTSRscbqD9i0bNnzLlkvw=
 
-Name: data/local/Xenon54/.script/bin/androidbootimg.magic
+Name: data/local/RRB/.script/bin/androidbootimg.magic
 SHA1-Digest: MH7+fpjPc+Pl/YZ7dM8FK0ANGGA=
 
-Name: data/local/Xenon54/.script/bin/chromeos/kernel_data_key.vbpriv
+Name: data/local/RRB/.script/bin/chromeos/kernel_data_key.vbpriv
  k
 SHA1-Digest: oLkG4w/5HLb7fes+kXTkmmnIhY4=
 
-Name: data/local/Xenon54/.script/bin/chromeos/kernel.keyblock
+Name: data/local/RRB/.script/bin/chromeos/kernel.keyblock
 SHA1-Digest: zeiSVt//JG/gc0RW0507ZEaYVxU=
 
 Name: META-INF/com/google/android/update-binary
 SHA1-Digest: ygSP0NefcGv5SErY1AZLNH7HpZM=
 
-Name: data/local/Xenon54/.script/bin/mkbootimg
+Name: data/local/RRB/.script/bin/mkbootimg
 SHA1-Digest: V8WRl1jsMtZC146SjR+g7AmmISk=
 
-Name: data/local/Xenon54/.script/bin/loki_tool
+Name: data/local/RRB/.script/bin/loki_tool
 SHA1-Digest: /weFXVWCJMK7HRYWnGRHf4i+fJM=
 
-Name: data/local/Xenon54/.script/bin/unpackbootimg
+Name: data/local/RRB/.script/bin/unpackbootimg
 SHA1-Digest: vHsaEUA0wRCO72bGiZk+RjtXfUI=
 
-Name: data/local/Xenon54/.script/unpackimg.sh
+Name: data/local/RRB/.script/unpackimg.sh
 SHA1-Digest: 4c9QwVzSdmumdQcJ00HGcJRan2E=
 
-Name: data/local/Xenon54/.script/bin/busybox
+Name: data/local/RRB/.script/bin/busybox
 SHA1-Digest: F43mbXlWrlm1EktTthaCWgeG2eo=
 
-Name: data/local/Xenon54/.script/bin/aik
+Name: data/local/RRB/.script/bin/aik
 SHA1-Digest: bAdtaAbKDglHCHE+b5lJB4bR0FI=
 
-Name: data/local/Xenon54/.script/repackimg.sh
+Name: data/local/RRB/.script/repackimg.sh
 SHA1-Digest: XxISxhAOW7jFHZiDmTx0RX5SLR4=
 
-Name: data/local/Xenon54/.script/bin/mkmtkhdr
+Name: data/local/RRB/.script/bin/mkmtkhdr
 SHA1-Digest: MERN4La0GLXy+E6rmhncn71Gzq0=
 
-Name: data/local/Xenon54/.script/bin/magic
+Name: data/local/RRB/.script/bin/magic
 SHA1-Digest: LE2wSUJ/8Srml6mFMgdupFMLOM4=
 
-Name: data/local/Xenon54/.script/bin/xz
+Name: data/local/RRB/.script/bin/xz
 SHA1-Digest: Mw5WTMhdFqftdgcSzLLkUkyVlug=
 
-Name: data/local/Xenon54/.port/recovery.fstab
+Name: data/local/RRB/.port/recovery.fstab
 SHA1-Digest: K1cldTGfrAQ/hgDuuT0oQJI1yd4=
 
-Name: system/bin/Xenon54
+Name: system/bin/RRB
 SHA1-Digest: CHjbf+TIuYrxnNrFw6/0pA+yQlk=
 
