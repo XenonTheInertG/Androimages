@@ -19,7 +19,7 @@ if (! `mount 2>/dev/null | grep " /data " >/dev/null`); then
   fi
 fi
 
-# remove_fbe infstab outfstab
+# remove_fbe in fstab out fstab
 remove_fbe() {
   umount $1
   if (`cat $1 2>/dev/null | grep fileencryption >/dev/null`); then
