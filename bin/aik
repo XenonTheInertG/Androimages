@@ -1,0 +1,45 @@
+#!/system/bin/sh
+# AIK-mobile/aik: command-line shortcut to the work dir
+# XenonTheInertG @ xda-developers
+
+aik=/data/local/AIK-mobile;
+
+case $1 in
+  --restore)
+    # fix shortcut script
+    if [ -e /su ]; then
+      su -c "cp -pf $aik/bin/aik /su/bin/aik";
+    elif [ -e /magisk ]; then
+      su -c "mkdir -p /magisk/aik-mobile/bin; \
+             cp -pf $aik/bin/aik /magisk/aik-mobile/bin/aik; \
+             touch /magisk/aik-mobile/auto_mount";
+    else
+      su -c "mount -o rw,remount -t auto /system; \
+             rm -f /system/xbin/aik; \
+             cp -pf $aik/bin/aik /system/xbin/aik; \
+             mount -o ro,remount -t auto /system";
+    fi;
+    echo "aik: shortcut restored!";
+  ;;
+  --uninstall)
+    # remove AIK-mobile and shortcut script
+    if [ -e /su -o -e /magisk ]; then
+      su -c "rm -rf $aik /su/bin/aik /magisk/aik-mobile";
+    else
+      su -c "mount -o rw,remount -t auto /system; \
+             rm -rf $aik /system/xbin/aik; \
+             mount -o ro,remount -t auto /system";
+    fi;
+    echo "aik: uninstall complete!";
+  ;;
+  --help)
+    # print help for shortcut command
+    echo "usage: aik [--restore|--uninstall|--help]";
+  ;;
+  *)
+    # go local and request root
+    cd $aik;
+    PATH="$PATH:$aik" su;
+  ;;
+esac;
+
