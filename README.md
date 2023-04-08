@@ -1,8 +1,8 @@
 ![1_20210502_113350_0000](https://user-images.githubusercontent.com/78007167/117167512-21252600-ade9-11eb-96ff-fc33615cb7d0.png)
 
 
-# Rec-Boot Bot
-# Rec-Boot Bot is a tiny but powerfull shell script that unpack repack,Auto port,manually port,flash & mange your boot images & recovery images;)
+# Androimages
+# Androimages is a tiny but powerfull shell script that unpack repack,Auto port,manually port,flash & mange your boot images & recovery images;)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2cadab25a04c42779f3203b4a61bd6ef)](https://app.codacy.com/gh/XenonTheInertG/Rec-Boot-Bot?utm_source=github.com&utm_medium=referral&utm_content=XenonTheInertG/Rec-Boot-Bot&utm_campaign=Badge_Grade)
 
